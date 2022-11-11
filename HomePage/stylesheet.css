@@ -247,7 +247,116 @@
     justify-content: space-evenly;
 }
 .div-price>div{
-    border: 1px solid black;  
+    /* border: 1px solid black;   */
     width: 26%;
-    height: 500px;
+    height: 450px;
+    border-radius: 10px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+   
+}
+.div-price>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div-price p{
+   font-family: 'National 2', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック', '游ゴシック体', YuGothic, 'Yu Gothic', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 24px;
+  
+    margin: 18px 0px;
+}
+.div-price div div{
+    /* border: 1px solid red; */
+    height: 60px;
+    padding-top:20px;
+    /* align-items: center; */
+    /* margin-top: 10px; */
+}
+.div-price h3{
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin: 8px 0px; */
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;  
+}
+.div-price a{
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 191, 111);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#green{
+   
+    color: white;
+    background-color: rgb(0, 191, 111);
+}
+#purple{
+    background-color: #05467e;;
+}
+#blue{
+    background-color: #53225b;;
+}
+#noo{
+    color: white;
+    background-color: #05467e;;
+}
+#nonn{
+    color: white;
+    background-color: #53225b;;
+}
+.tt{
+    margin-top: 10px;
+    font-size: 44px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", 
+  "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+
+}
+.king{
+    margin-top: 10px;
+}
+.world{
+    text-align: center;
+    width: 100%;
+    /* margin-top: 1000px; */
+    border: 1px solid blue;
+    height: 350px;
+    margin: auto;
+    background-color: #05467e;
+    /* background-image: url(image/Template-6.png); */
+}
+
+strong{
+    /* margin-top: 100px; */
+    color: white;
+    font-size: 18px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", 
+  "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  
+}
+.wor{ 
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 18px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", 
+  "Hiragino Kaku Gothic Pro";
+}
+#hh{
+    margin-top: 80px;
+ /* border: 1px solid red; */
+ height: 200px;
+ width: 100%;
+}
+.world button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
 }
